@@ -1,0 +1,122 @@
+.mainDiv{
+    background-color: brown;
+    color: white;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    justify-content: center;
+}
+.column{
+    display: flex;
+    /* width: 30%; */
+    padding: 20px;
+    background-color: chocolate;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.secondDiv{
+    background-color: cornflowerblue;
+    height: 500px;
+    margin-top: 20px;
+    /* align-items: center; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+
+}
+.one,.two,.three{
+    display: flex;
+    /* justify-content: flex-start; */
+}
+
+.sec-column{
+    background-color: darkgray;
+    height: 20px;
+    padding: 20px;
+}
+.gallery{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.text-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.side-img{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+}
+.portfolio-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.multiple-imges,.multiple-imges-4{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.one-big-img{
+    background-color: chocolate;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+}
+h1 {
+    width: 400px;
+}
+.together-img{
+    background-color: chocolate;
+    width: 400px;
+    height: 245px;
+    margin-top: 10px;
+}
+.one-big-img-4{
+    background-color: red;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+}
+.vertical-img{
+    background-color: red;
+    width: 195px;
+    height: 245px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.vertical-img-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.landscap-img{
+    background-color: red;
+    width: 400px;
+    height: 245px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@media(max-width:468px){
+    .img,.side-img,.one-big-img{
+        width: 80%;
+        height: 200px;
+    }
+    
+}
