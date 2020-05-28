@@ -1,0 +1,104 @@
+ 
+.navbar{
+    background-color: #9932CC !important;
+}
+.logo{
+    width: 130px;
+    
+
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.fa-shopping-cart,.fa-user{
+    font-size: 30px;
+}
+.fa-smile-o,.fa-headphones,.fa-truck{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #9932CC !important;
+}
+h3 {
+    color: #9932CC !important;
+}
+.mainCard
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+.cardStyle{
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px 2px #6c757d;
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.newArrival{
+    margin-top: 20px;
+    
+}
+.heading{
+    /* width: 100%; */
+    margin: 20px;
+    text-align: center;
+    text-shadow: 3px 2px 3px #9932CC;
+    
+}
+.card{
+    width: 250px;
+    margin-top: 10px;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+
+}
+.btn{
+    background-color:#9932CC ;
+}
+.btn:hover{
+    background-color:#9400D3 ;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+    background-color:#9932CC ;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer h4{
+    color: white;
+    border-bottom: 1px solid white;
+    line-height: 50px;
+}
+.categories{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color:white;
+    box-shadow: 2px 2px 2px 4px #9932ccb8;
+    
+}
+.categories div{
+    font-weight: 30px;
+}
+
+@media only screen and(mix-width: 768px)
+{
+ 
+}
+@media only screen and(mix-width: 576px)
+{
+    
+}
