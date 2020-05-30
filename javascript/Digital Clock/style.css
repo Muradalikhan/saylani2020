@@ -1,0 +1,27 @@
+
+body{
+    background-image: url("images/clock.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.clock{
+    margin: 300px auto;
+    width: 25%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 2px  4px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:400px){
+    .clock{
+        width:70%;
+    }
+}
