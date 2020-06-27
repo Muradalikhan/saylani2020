@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+#mainheading{
+font-size: 70px;
+text-align: center;
+
+}
+/* .unorder-list{
+    background-color: aqua;
+    list-style: square outside url("icon.png");
+} */
+.unorder-list>li{
+    list-style: none;
+    background-color: chartreuse;
+ }
+ .unorder-list>li:before{
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("icon.png");
+    background-color: blue;
+ }
+.order-list li{
+list-style:upper-roman;
+background-color: chartreuse;
+
+}
+/* paragraph styling  */
+p span{
+    font-style: italic;
+    color: chocolate;
+}
+p span#lastspan{
+    text-decoration: underline;
+    color: chocolate;  
+}
+p >span.first-span{
+    font-style: normal;
+    color: red;
+}
+p,li{
+    font-size: 20px;
+}
+
+h1,h2{
+    padding-bottom: 20px;
+    color: forestgreen;
+}
+
+li:hover {
+    font-size: 30px;
+
+}
+img {
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+h1{
+    text-decoration: underline;
+}
