@@ -1,0 +1,12 @@
+.exp{
+    padding: 10px 20px;
+    background-color: chocolate;
+    color: white;
+    margin-left: 20px;
+}
+#show-msg{
+    padding: 10px;
+}
+#result-div{
+    display: none;
+}
