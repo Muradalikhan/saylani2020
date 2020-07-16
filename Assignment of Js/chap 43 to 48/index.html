@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+
+    <div class="alert">
+        <h1>1) Alert box</h1>
+        <button onclick="showAlert()">Show Alert Box</button>
+
+    </div>
+
+
+    <div>
+        <h1>2) Mobile phone lookup</h1>
+        <div class="imges">
+            <a href="#" onclick="purchase()"> <img src="imges/img1.jpg" alt="img">
+                <p>Buy</p>
+            </a>
+        </div>
+        <div class="imges">
+            <a href="#" onclick="purchase()"> <img src="imges/img2.jpg" alt="img">
+                <p>Buy</p>
+            </a>
+        </div>
+        <div class="imges">
+            <a href="#" onclick="purchase()"> <img src="imges/img3.jpg" alt="img">
+                <p>Buy</p>
+            </a>
+        </div>
+        <div class="imges">
+            <a href="#" onclick="purchase()"> <img src="imges/img4.png" alt="img">
+                <p>Buy</p>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div id="dialog" title="Basic dialog">
+        <h2 class="cross" onclick="dismis()">X</h2>
+        <p>Thanks for purchasing from us</p>
+      </div>
+
+
+
+
+
+      <div>
+          <h1>3) Student record table</h1>
+
+            <table border="1">
+                <tr>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>Grade</td>
+                    <td>Action</td>
+                </tr>
+                <tr>
+                    <td>Ali</td>
+                    <td>19</td>
+                    <td>B</td>
+                    <td><b class="del" onclick="deleteRow(this)">Delete</b></td>
+                </tr>
+                <tr>
+                    <td>Usman</td>
+                    <td>20</td>
+                    <td>B</td>
+                    <td><b class="del" onclick="deleteRow(this)">Delete</b></td>
+                </tr>
+            </table>
+      </div>
+
+
+
+      <div>
+          <h1> 4) setting image on mouse over and out</h1>
+
+          <img src="imges/img1.jpg" onmouseover="changeImg(this)" onmouseout="changeAgain(this)" alt="img">
+      </div>
+    
+
+
+
+
+
+      <div>
+          <h1>counter increase and decrease</h1>
+          <p id="counter">0</p>
+          <button onclick="increamet()">increase</button>
+          <button onclick="decreament()">decrease</button>
+      </div>
+
+
+
+
+   
+    <script src="app.js"></script>
+
+</body>
+
+</html>
