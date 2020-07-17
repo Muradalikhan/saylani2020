@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form">
+        <span style="float:right;">task #1</span>
+
+        <h1>Sign up </h1>
+        <div><label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div><label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div><label for="password">Password:</label>
+            <input type="text" name="password" id="password">
+        </div>
+        <button onclick="gotoUserData()">Sign up</button>
+    </div>
+
+
+    <!-- task 2 -->
+
+    <div class="second-task">
+        <span style="float:right;">task #2</span>
+        <h1>Show More detail on Click </h1>
+
+        <div>
+            <h2>Javascript</h2>
+            <p id="less">JavaScript, often abbreviated as JS, is a programming language... <a href="#"
+                    onclick="detail()">Show more</a></p>
+            <p id="more">JavaScript, often abbreviated as JS, is a programming language
+                that conforms to the ECMAScript specification. JavaScript is high-level,
+                often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing,
+                prototype-based object-orientation, and first-class functions. <a href="#" onclick="showless()">show less</a></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
