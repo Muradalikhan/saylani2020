@@ -40,10 +40,67 @@
             <p id="more">JavaScript, often abbreviated as JS, is a programming language
                 that conforms to the ECMAScript specification. JavaScript is high-level,
                 often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing,
-                prototype-based object-orientation, and first-class functions. <a href="#" onclick="showless()">show less</a></p>
+                prototype-based object-orientation, and first-class functions. <a href="#" onclick="showless()">show
+                    less</a></p>
         </div>
     </div>
 
+
+
+    <!-- task 3  -->
+
+    <div class="main-con">
+
+
+
+        <div class="std-form">
+            <span style="float:right;">task #3</span>
+
+            <h1>Student Record </h1>
+            <div><label for="std-name">Name:</label>
+                <input type="text" name="name" id="std-name">
+            </div>
+            <div><label for="std-email">Email:</label>
+                <input type="text" name="email" id="std-email">
+            </div>
+            <div><label for="std-age">Age:</label>
+                <input type="number" name="num" id="std-age">
+            </div>
+            <button onclick="saveRecord()">Save</button>
+        </div>
+
+
+
+        <div class="std-form">
+            <h1>View Data</h1>
+            <table id="tbl">
+
+            </table>
+        </div>
+
+
+
+        <div class="edit-std-form">
+            <span style="float:right;">task #3</span>
+
+            <h1>Edit Student Record </h1>
+            <div><label for="edit-std-name">Name:</label>
+                <input type="text" name="name" id="edit-std-name">
+            </div>
+            <div><label for="edit-std-email">Email:</label>
+                <input type="text" name="email" id="edit-std-email">
+            </div>
+            <div><label for="edit-std-age">Age:</label>
+                <input type="number" name="num" id="edit-std-age">
+            </div>
+            <button onclick="updateRecord()">Update</button>
+        </div>
+
+
+
+       
+
+    </div>
 
 
 
