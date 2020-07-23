@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- task 1 -->
+
+    <div class="gallery" id="gallery">
+        <img src="imges/img1.jpg" alt="img" onclick="openModel(this)">
+        <img src="imges/img2.jpg" alt="img" onclick="openModel(this)">
+        <img src="imges/img3.jpg" alt="img" onclick="openModel(this)">
+        <img src="imges/img4.jpg" alt="img" onclick="openModel(this)">
+    </div>
+
+
+    <div id="model">
+        <h2 class="close-model" onclick="closeModel()">x</h2>
+        <div id="inner-model">
+            <h2 class="hands" onclick="preImg()"><<</h2>
+            <img src="" id="model-img" alt="img">
+            <h2 class="hands" onclick="nextImg()">>></h2>
+        </div>
+    </div>
+
+
+
+    <!-- task 2 -->
+    <div class="btn" id="task-2">
+        <button onclick="increaseFontSize()">Zoom in</button><button onclick="decreaseFontSize()">Zoom out</button>
+    
+    <div class="task-2">
+        <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit beatae, distinctio 
+            in cum consequatur tempora repudiandae dolorum alias quo voluptatum magni veniam
+             repellendus perspiciatis fugiat quod! Autem impedit magni in.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit beatae, distinctio 
+             in cum consequatur tempora repudiandae dolorum alias quo voluptatum magni veniam
+              repellendus perspiciatis fugiat quod! Autem impedit magni in.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit beatae, distinctio 
+                 repellendus perspiciatis fugiat quod! Autem impedit magni in.</p>
+
+                 
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

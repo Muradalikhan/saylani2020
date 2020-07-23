@@ -1,0 +1,74 @@
+
+body{
+    background-color: lightgray;
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    margin: 30px auto;
+    box-shadow: 2px 2px 4px 4px darkgray;
+}
+label,input{
+    margin: 10px;
+    width: 80%;
+    padding: 20px;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+p{
+    font-weight: bold;
+    padding: 20px;
+}
+#more{
+    display: none;
+}
+.second-task{
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    margin: 30px auto;
+    box-shadow: 2px 2px 4px 4px darkgray;
+}
+.main-con{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.std-form{
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 2px 2px 4px 4px darkgray;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+.edit-std-form{
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 2px 2px 4px 4px darkgray;
+    margin-top: 20px;
+    display: none;
+    
+    
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
